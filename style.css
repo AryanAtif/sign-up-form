@@ -32,3 +32,15 @@ h1
   font-size: 40px;
   font-weight: Bold;
 }
+
+form 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.first-row, .second-row, .third-row/*, .text-box*/
+{
+  display: flex;
+  justify-content: space-evenly;
+}

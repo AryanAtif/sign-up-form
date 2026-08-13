@@ -9,6 +9,38 @@
   <body>
     <h1> Sign-up form </h1>
     <p> Fill out the below form to sign up.</p>
+
+    <form>
+      <div class="first-row">
+        <label for="first-name"> First Name (*)</label>
+        <input id="first-name"  required/>
+        <label for="last-name"> Last Name (*)</label>
+        <input id="last-name" required/>
+      </div>
+      
+      <div class="second-row">
+        <label for="vault">Vault Number(optional)</label>
+        <input id="vault" type="number" min="1" max="34"/>
+        <label for="base">Current Base (*)</label>
+        <input id="base" type="email" required/>
+      </div>
+
+      <div class="third-row">
+          <label for="passcode">Enter Passcode</label> 
+          <input id="passcode" type="password" required>
+          <label for="confirm_passcode">Confirm Passcode(*)</label> 
+          <input id="confirm_passcode" type="password" required>
+      </div>
+
+
+      <div class="text-box">
+        <label form="info">What brings you to lucky38?</label>
+        <textarea id="info">
+        </textarea>
+      </div>
+
+    </form>
+
   </body>
 
-</html>>
+</html>
