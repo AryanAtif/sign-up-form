@@ -1,0 +1,34 @@
+@font-face
+{
+  font-family: "JetBrainsMono";
+  src: url("./fonts/JetBrainsMono-Regular.woff2");
+  font-weight: normal;
+}
+@font-face
+{
+  font-family: "JetBrainsMono";
+  src: url("./fonts/JetBrainsMono-Bold.woff2");
+  font-weight: bold;
+}
+@font-face
+{
+  font-family: "JetBrainsMono";
+  src: url("./fonts/JetBrainsMono-Italic.woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root 
+{
+  font-family: "JetBrainsMono", "Courier New", monospace;
+  font-weight: normal;
+  font-size: 12px;
+
+}
+
+h1
+{
+  font-family: "JetBrainsMono", "Courier New", monospace;
+  font-size: 40px;
+  font-weight: Bold;
+}
