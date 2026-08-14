@@ -23,7 +23,11 @@
   font-family: "JetBrainsMono", "Courier New", monospace;
   font-weight: normal;
   font-size: 12px;
-
+}
+body
+{
+  background: url("./images/background.png");
+  color: #fe9f1b;
 }
 
 h1
