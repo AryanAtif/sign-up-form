@@ -28,6 +28,7 @@ body
 {
   background: url("./images/background.png");
   color: #fe9f1b;
+
 }
 
 h1
@@ -37,7 +38,20 @@ h1
   font-weight: Bold;
 }
 
-form 
+.main-container 
+{
+  display: flex;
+  gap: 1rem;
+}
+.sidebar
+{
+  background: #261808;
+  border: 0.25rem solid #fe9f1b ;
+  width: 25%;
+  min-height: 98vh;
+}
+
+.form 
 {
   display: flex;
   flex-direction: column;
