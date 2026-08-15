@@ -14,33 +14,36 @@
         <form action="#">
           <div class="first-row">
             <div class="input-field"> 
-              <label for="first-name"> First Name (*)</label>
-              <input id="first-name" placeholder="Robert" required/>
+              <label for="first-name"> First Name<sup>*</sup></label>
+              <input id="first-name" placeholder=" Robert" required/>
             </div>
             <div class="input-field"> 
-              <label for="last-name"> Last Name (*)</label>
-              <input id="last-name" placeholder="House" required/>
+              <label for="last-name"> Last Name<sup>*</sup></label>
+              <input id="last-name" placeholder=" House" required/>
             </div>
           </div>
 
           <div class="second-row">
             <div class="input-field"> 
-              <label for="vault">Vault Number<sup>(1)</sup></label>
-              <input id="vault" type="number" min="1" max="34"/>
+              <label
+                title="Enter the the vault you're from. If you're not from any vault, you can skip this."
+                for="vault">Vault Number<sup>(1)</sup></label>
+              <input id="vault" type="tel" min="3" max="34"
+              />
             </div>
             <div class="input-field"> 
-              <label for="base">Current Base (*)</label>
-              <input id="base" type="email" placeholder="basename@town"required/>
+              <label for="base">Current Base<sup>*</sup></label>
+              <input id="base" type="email" placeholder=" basename@town"required/>
             </div>
           </div>
 
           <div class="third-row">
             <div class="input-field"> 
-              <label for="passcode">Enter Passcode</label> 
+              <label for="passcode">Enter Passcode<sup>*</sup></label> 
               <input id="passcode" type="password" required>
             </div>
             <div class="input-field"> 
-              <label for="confirm_passcode">Confirm Passcode(*)</label> 
+              <label for="confirm_passcode">Confirm Passcode<sup>*</sup></label> 
               <input id="confirm_passcode" type="password" required>
             </div>
           </div>
@@ -48,7 +51,7 @@
           <div class="text-box">
             <div class="input-field"> 
               <label for="info">What brings you to lucky38?</label>
-              <textarea id="info" value="I'm here to...">
+              <textarea id="info" placeholder=" I'm here to...">
               </textarea>
             </div>
           </div>

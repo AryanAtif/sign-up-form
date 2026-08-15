@@ -50,6 +50,7 @@ input
 {
   width: 15rem;
   height: 2rem;
+  outline: none;
   
   appearance: none;
   color: #fe9f1b;
@@ -60,6 +61,7 @@ textarea
 {
   width: 40rem;
   height: 10rem;
+  outline: none;
   
   appearance: none;
   color: #fe9f1b;
@@ -75,6 +77,14 @@ label
   padding-bottom: 0.5rem;
 }
 
+input:invalid
+{
+  border: dashed;
+}
+input:focus
+{
+  border: solid;
+}
 
 .main-container 
 {
@@ -122,3 +132,6 @@ button
 {
   align-self: flex-end;
 }
+
+
+
