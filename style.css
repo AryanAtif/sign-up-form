@@ -22,7 +22,7 @@
 {
   font-family: "JetBrainsMono", "Courier New", monospace;
   font-weight: 600; 
-  font-size: 20px;
+  font-size: 1rem;
 }
 body
 {
@@ -33,7 +33,7 @@ body
 h1
 {
   font-family: "JetBrainsMono", "Courier New", monospace;
-  font-size: 40px;
+  font-size: 7rem;
   font-weight: Bold;
 }
 
@@ -111,9 +111,9 @@ input:focus
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-right: 5rem;
-  min-width: 70vw;
-  gap: 5rem;
+  padding-right: 2rem;
+  min-width: 60vw;
+  gap: 2rem;
 }
 .first-row, .second-row, .third-row, .text-box
 {
@@ -127,11 +127,23 @@ input:focus
 {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 button
 {
-  align-self: flex-end;
+  font-size: 1rem;
+
+  padding: 0.75rem;
+  color: #261808;
+  background: #fe9f1b;
+  border: #261808 2px solid;
+
+  border-radius: 15px;
 }
-
-
+button:hover, button:focus
+{
+  color:  #fe9f1b;
+  background:#261808;
+  border:  #fe9f1b 2px solid;
+}
 
