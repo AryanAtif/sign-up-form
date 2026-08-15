@@ -11,26 +11,26 @@
       <div class="sidebar"> </div>
 
       <div class="form">
-        <form>
+        <form action="#">
           <div class="first-row">
             <div class="input-field"> 
               <label for="first-name"> First Name (*)</label>
-              <input id="first-name"  required/>
+              <input id="first-name" placeholder="Robert" required/>
             </div>
             <div class="input-field"> 
               <label for="last-name"> Last Name (*)</label>
-              <input id="last-name" required/>
+              <input id="last-name" placeholder="House" required/>
             </div>
           </div>
 
           <div class="second-row">
             <div class="input-field"> 
-              <label for="vault">Vault Number(optional)</label>
+              <label for="vault">Vault Number<sup>(1)</sup></label>
               <input id="vault" type="number" min="1" max="34"/>
             </div>
             <div class="input-field"> 
               <label for="base">Current Base (*)</label>
-              <input id="base" type="email" required/>
+              <input id="base" type="email" placeholder="basename@town"required/>
             </div>
           </div>
 
@@ -47,10 +47,14 @@
 
           <div class="text-box">
             <div class="input-field"> 
-              <label form="info">What brings you to lucky38?</label>
-              <textarea id="info">
+              <label for="info">What brings you to lucky38?</label>
+              <textarea id="info" value="I'm here to...">
               </textarea>
             </div>
+          </div>
+
+          <div class="submit-btn">
+            <button type="submit">Request Acess</button>
           </div>
 
         </form>

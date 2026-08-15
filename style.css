@@ -37,6 +37,45 @@ h1
   font-weight: Bold;
 }
 
+
+input,
+textarea,
+button
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input
+{
+  width: 15rem;
+  height: 2rem;
+  
+  appearance: none;
+  color: #fe9f1b;
+  background: #261808;
+  border: #fe9f1b 2px solid;
+}
+textarea
+{
+  width: 40rem;
+  height: 10rem;
+  
+  appearance: none;
+  color: #fe9f1b;
+  background: #261808;
+  border: #fe9f1b 2px solid;
+}
+textarea:focus
+{
+  border: #fe9f1b 2px solid;
+}
+label 
+{
+  padding-bottom: 0.5rem;
+}
+
+
 .main-container 
 {
   display: flex;
@@ -45,7 +84,7 @@ h1
 .sidebar
 {
   background: #261808;
-  border: 0.25rem solid #fe9f1b ;
+  border: 0.10rem solid #fe9f1b ;
   width: 25%;
   min-height: 98vh;
 }
@@ -72,5 +111,14 @@ h1
   justify-content: space-between;
   gap: 4rem;
   padding-bottom: 4rem;
+}
 
+.submit-btn
+{
+  display: flex;
+  flex-direction: row;
+}
+button
+{
+  align-self: flex-end;
 }
