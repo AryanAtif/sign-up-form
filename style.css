@@ -93,12 +93,24 @@ input:focus
 }
 .sidebar
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   background: url("./images/lucky38.png");
   background-size: cover;
   background-position: center;
   border: 0.10rem solid #fe9f1b ;
   width: 25%;
   min-height: 98vh;
+}
+.lucky38-logo
+{
+  background: rgba(66, 42, 14, 0.8);
+}
+.lucky38-logo img
+{
+  padding: 2rem;
 }
 
 .input-field
@@ -148,4 +160,3 @@ button:hover, button:focus
   background:#261808;
   border:  #fe9f1b 2px solid;
 }
-
