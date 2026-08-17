@@ -30,11 +30,26 @@ body
   color: #fe9f1b;
 }
 
-h1
+h1, h2
 {
   font-family: "JetBrainsMono", "Courier New", monospace;
-  font-size: 7rem;
   font-weight: Bold;
+}
+h1
+{
+  font-size: 6rem;
+}
+h1
+{
+  font-size: 4rem;
+}
+.title h1, .title h2
+{
+  margin: 0rem;
+}
+.title
+{
+  margin-bottom: 2rem;
 }
 
 
@@ -111,6 +126,7 @@ input:focus
 .lucky38-logo img
 {
   padding: 2rem;
+  max-width: 80%;
 }
 
 .input-field
